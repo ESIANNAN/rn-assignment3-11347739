@@ -27,7 +27,13 @@ const styles = StyleSheet.create({
  text: {
     fontSize: 30,
   },
-
+  textInput:{
+    width:246,
+    height:50,
+    borderWidth:1,
+    marginTop:45,
+    backgroundColor:'#FBF9F7',
+    borderRadius:10,
   
 
 });
