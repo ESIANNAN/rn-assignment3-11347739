@@ -6,6 +6,10 @@ export default function App() {
     <View style={styles.container}>
        <Text style={styles.text}>Hello , Devs!</Text>
       <Text style={styles.smalltext}>14 tasks today</Text>
+      <TextInput 
+        style={styles.textInput}
+        placeholder='Search'
+      />
       <StatusBar style="auto" />
     </View>
   );
