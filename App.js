@@ -43,7 +43,7 @@ export default function App() {
           
 </ScrollView>
 
-
+<Text style={styles.ongoingTasks}>Ongoing Tasks</Text>
           
       <StatusBar style="auto" />
     </View>
