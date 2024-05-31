@@ -60,8 +60,15 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginTop:25,
   },
-    activities:{
+   activities:{
     width:150,
+    borderWidth:2,
+    marginRight:15,
+    width:150,
+    height:150,
+    borderRadius:15,
+    padding: 15,
+    paddingTop:0,
   },
   
   
