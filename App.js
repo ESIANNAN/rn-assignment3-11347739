@@ -11,6 +11,7 @@ export default function App() {
         placeholder='Search'
       />
       <Text style={styles.categories}>Categories</Text>
+          
   <ScrollView horizontal style={ styles.scrollview}>
       <View style={styles.slide}>
           <Text style={styles.activities}>Exercise</Text>
@@ -25,8 +26,21 @@ export default function App() {
           <Text style={styles.activities}>Cook</Text>
         </View>
         <View style={styles.slide}>
-          <Text style={styles.activities}>Sleep</Text>
-        </View>>
+          <Text style={styles.activities}>Self-care</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Travel</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Relaxation & Leisure</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Socialize</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Research</Text>
+        </View>
+          
 </ScrollView>
 
 
