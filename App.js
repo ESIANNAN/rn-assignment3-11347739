@@ -12,20 +12,21 @@ export default function App() {
       />
       <Text style={styles.categories}>Categories</Text>
   <ScrollView horizontal style={ styles.scrollview}>
-    <View style={styles.slide}>
-          { <TextInput style={styles.activities} placeholder='Exercise'/>}
-    </View>
-    <View style={styles.slide}>
-          { <TextInput style={styles.activities} placeholder='Study'/>}
-    </View>
-    <View style={styles.slide}>
-          { <TextInput style={styles.activities} placeholder='Code'/>}
-    </View>
-    <View style={styles.slide}>
-          { <TextInput style={styles.activities} placeholder='Cook'/>}
-    </View>
-
-
+      <View style={styles.slide}>
+          <Text style={styles.activities}>Exercise</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Study</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Code</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Cook</Text>
+        </View>
+        <View style={styles.slide}>
+          <Text style={styles.activities}>Sleep</Text>
+        </View>>
 </ScrollView>
 
 
