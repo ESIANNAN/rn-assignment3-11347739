@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
   },
     categories:{
     fontSize: 20,
-    marginTop:30,
+    marginTop:25,
   },
   
 
