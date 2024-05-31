@@ -85,6 +85,10 @@ const styles = StyleSheet.create({
     padding: 15,
     paddingTop:18,
   },
+  ongoingtask:{
+    fontSize:20,
+    marginTop:20,
+  }
   
   
 
