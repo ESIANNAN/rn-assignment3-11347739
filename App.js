@@ -59,6 +59,10 @@ const styles = StyleSheet.create({
     fontSize: 20,
     marginTop:25,
   },
+    activities:{
+    width:150,
+  },
+  
   
 
 });
