@@ -15,8 +15,15 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    justifyContent: 'flex-start', 
+    alignItems: 'flex-start', 
+    paddingTop: 50,
+    paddingLeft: 20, 
   },
+ text: {
+    fontSize: 30,
+  },
+
+  
 
 });
