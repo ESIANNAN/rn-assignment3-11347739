@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   return (
+<ScrollView contentContainerStyle={styles.scrollViewContainer}>
     <View style={styles.container}>
        <Text style={styles.text}>Hello , Devs!</Text>
       <Text style={styles.smalltext}>14 tasks today</Text>
@@ -47,6 +48,7 @@ export default function App() {
           
       <StatusBar style="auto" />
     </View>
+ </ScrollView>
   );
 }
 
