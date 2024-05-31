@@ -35,6 +35,11 @@ const styles = StyleSheet.create({
     marginTop:38,
     backgroundColor:'#FBF9F7',
     borderRadius:10,
+  },
+    categories:{
+    fontSize: 20,
+    marginTop:30,
+  },
   
 
 });
