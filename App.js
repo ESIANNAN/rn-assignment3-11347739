@@ -11,6 +11,25 @@ export default function App() {
         placeholder='Search'
       />
       <Text style={styles.categories}>Categories</Text>
+  <ScrollView horizontal style={ styles.scrollview}>
+    <View style={styles.slide}>
+          { <TextInput style={styles.activities} placeholder='Exercise'/>}
+    </View>
+    <View style={styles.slide}>
+          { <TextInput style={styles.activities} placeholder='Study'/>}
+    </View>
+    <View style={styles.slide}>
+          { <TextInput style={styles.activities} placeholder='Code'/>}
+    </View>
+    <View style={styles.slide}>
+          { <TextInput style={styles.activities} placeholder='Cook'/>}
+    </View>
+
+
+</ScrollView>
+
+
+          
       <StatusBar style="auto" />
     </View>
   );
