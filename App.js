@@ -40,11 +40,10 @@ export default function App() {
         </View>
         <View style={styles.slide}>
           <Text style={styles.activities}>Research</Text>
-        </View>
-          
+        </View>        
 </ScrollView>
+<Text style={styles.categories}>Ongoing Task</Text>
 
-<Text style={styles.ongoingTasks}>Ongoing Tasks</Text>
           
       <StatusBar style="auto" />
     </View>
