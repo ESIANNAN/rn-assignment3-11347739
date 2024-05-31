@@ -10,6 +10,7 @@ export default function App() {
         style={styles.textInput}
         placeholder='Search'
       />
+      <Text style={styles.categories}>Categories</Text>
       <StatusBar style="auto" />
     </View>
   );
