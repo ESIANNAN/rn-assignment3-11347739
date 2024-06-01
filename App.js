@@ -99,7 +99,7 @@ const styles = StyleSheet.create({
     borderRadius:10,
   },
     categories:{
-    fontSize: 20,
+    fontSize: 22,
     marginTop:25,
   },
    activities:{
@@ -119,10 +119,13 @@ const styles = StyleSheet.create({
     paddingTop:18,
     marginTop:10,
     backgroundColor: '#FBF9F7',
+    fontSize:18,
+    fontWeight:'bold',
   },
   ongoingtask:{
-    fontSize:20,
+    fontSize:22,
     marginTop:20,
+    fontWeight:'bold',
   },
    taskBox: {
     backgroundColor: '#FBF9F7',
@@ -135,6 +138,7 @@ const styles = StyleSheet.create({
     padding: 26,
     width:348,
     height:125,
+    fontWeight:'bold',
   },
   
   
