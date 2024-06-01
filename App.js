@@ -64,9 +64,13 @@ import { StyleSheet, Text, TextInput, View, ScrollView, FlatList } from 'react-n
 <Text style={styles.ongoingtask}>Ongoing Task</Text>
  <FlatList
       data={tasks}
-      renderItem={({ item }) => <Text style={styles.task}>{item.title}</Text>}
-      keyExtractor={item => item.id}
-  />
+      renderItem={({ item }) => (
+            <View style={styles.taskBox}>
+            <Text style={styles.task}>{item.title}</Text>
+       </View>
+      )}
+  keyExtractor={item => item.id}
+ />
       
       <StatusBar style="auto" />
     </View>
