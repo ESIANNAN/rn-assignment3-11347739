@@ -103,6 +103,12 @@ const styles = StyleSheet.create({
     marginTop:25,
   },
    activities:{
+      width:150,
+    borderWidth:2,
+    marginRight:15,
+    width:150,
+    height:150,
+    borderRadius:15,
     width:150,
     borderWidth:2,
     marginRight:15,
@@ -111,6 +117,8 @@ const styles = StyleSheet.create({
     borderRadius:15,
     padding: 15,
     paddingTop:18,
+    marginTop:10,
+    backgroundColor: '#FBF9F7',
   },
   ongoingtask:{
     fontSize:20,
