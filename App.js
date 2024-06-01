@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     marginTop:20,
   },
    taskBox: {
-    backgroundColor: '#E0E0E0',
+    backgroundColor: '#FBF9F7',
     borderRadius: 15,
     marginBottom: 10,
     marginTop: 12,
