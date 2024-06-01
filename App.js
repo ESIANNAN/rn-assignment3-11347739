@@ -115,7 +115,19 @@ const styles = StyleSheet.create({
   ongoingtask:{
     fontSize:20,
     marginTop:20,
-  }
+  },
+   taskBox: {
+    backgroundColor: '#E0E0E0',
+    borderRadius: 15,
+    marginBottom: 10,
+    marginTop: 12,
+  },
+  task: {
+    fontSize: 16,
+    padding: 26,
+    width:354,
+    height:125,
+  },
   
   
 
