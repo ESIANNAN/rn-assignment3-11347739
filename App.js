@@ -1,7 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, TextInput, View, ScrollView, FlatList } from 'react-native';
 
 export default function App() {
+  export default function App() {
+  const tasks = [
+    { id: '1', title: 'Mobile App Development' },
+    { id: '2', title: 'Web development' },
+    { id: '3', title: 'Cooking' },
+    { id: '4', title: 'Code' },
+    { id: '5', title: 'Studying' },
+    { id: '6', title: 'Work out' },
+    { id: '7', title: 'Partying' },
+    { id: '8', title: 'Jogging' },
+    { id: '9', title: 'Laundary' },
+    { id: '10', title: 'Grocery shopping' },
+    { id: '11', title: 'Music rehearsals' },
+    { id: '12', title: 'Piano lessons' },
+    { id: '13', title: 'Salon time' },
+    { id: '14', title: 'Group studies' },
+    { id: '15', title: 'Mid-week service' },
+  ];
   return (
 <ScrollView contentContainerStyle={styles.scrollViewContainer}>
     <View style={styles.container}>
@@ -42,9 +60,13 @@ export default function App() {
           <Text style={styles.activities}>Research</Text>
         </View>        
 </ScrollView>
-<Text style={styles.categories}>Ongoing Task</Text>
-
-          
+<Text style={styles.ongoingtask}>Ongoing Task</Text>
+ <FlatList
+      data={tasks}
+      renderItem={({ item }) => <Text style={styles.task}>{item.title}</Text>}
+      keyExtractor={item => item.id}
+  />
+      
       <StatusBar style="auto" />
     </View>
  </ScrollView>
