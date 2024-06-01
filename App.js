@@ -93,7 +93,6 @@ const styles = StyleSheet.create({
   textInput:{
     width:246,
     height:50,
-    borderWidth:1,
     marginTop:38,
     backgroundColor:'#FBF9F7',
     borderRadius:10,
@@ -103,14 +102,12 @@ const styles = StyleSheet.create({
     marginTop:25,
   },
    activities:{
-      width:150,
-    borderWidth:2,
+    width:150,
     marginRight:15,
     width:150,
     height:150,
     borderRadius:15,
     width:150,
-    borderWidth:2,
     marginRight:15,
     width:150,
     height:150,
