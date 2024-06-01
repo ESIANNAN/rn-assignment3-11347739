@@ -125,7 +125,7 @@ const styles = StyleSheet.create({
   task: {
     fontSize: 16,
     padding: 26,
-    width:354,
+    width:348,
     height:125,
   },
   
