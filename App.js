@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, TextInput, View, ScrollView, FlatList } from 'react-native';
 
-export default function App() {
+
   export default function App() {
   const tasks = [
     { id: '1', title: 'Mobile App Development' },
@@ -20,6 +20,7 @@ export default function App() {
     { id: '14', title: 'Group studies' },
     { id: '15', title: 'Mid-week service' },
   ];
+    
   return (
 <ScrollView contentContainerStyle={styles.scrollViewContainer}>
     <View style={styles.container}>
